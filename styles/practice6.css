@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.header{
+    margin: 15px;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.sect{
+    display: flex;
+    margin: 0px 15px 15px;
+}
+
+.post{
+    margin-right: 10px;
+    background-color: rgb(249, 237, 190);
+    border-left: 8px solid blueviolet;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#mrless{
+    margin-right: 0px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.read-more{
+    margin-top: 10px;
+    padding: 5px;
+    color: blueviolet;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    display: inline;
+}
+
+.links{
+    margin: 25px 0px;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    background-color: rgb(102, 102, 197);
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: rgb(99, 27, 167);
+}
+
+footer > p{
+    padding: 10px;
+    text-align: center;
+    color: antiquewhite;
+}

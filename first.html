@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring CSS</title>
+    <style>
+        p{
+            color: green;
+            background-color: cornsilk;
+        }
+        li{
+            color: red;
+        }
+        ol{
+            background-color: rgb(186, 193, 193);
+            font-weight: bold;
+            font-size: 18px;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .external{
+            color: red;
+            background-color: aquamarine;
+        }
+        #bigger{
+            font-size: 32px;
+        }
+        *{
+            margin: 5;
+            font-size: 20px;
+        }
+        input[type="password"]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color:blueviolet; background-color: bisque; text-align: center;">CSS means Cascading Style Sheet</h2>
+    <h3>There are <em><span style="color: red; font-size: 20px;">3 types</span></em> of css.</h3>
+    <ol>
+        <li>Inline CSS</li>
+        <li id="bigger">Internal/Embedded CSS</li>
+        <li>External CSS</li>
+    </ol>
+    <p>Inline CSS works in the line.</p>
+    <p>Internal/Embedded CSS works inside the head tag.</p>
+    <p class="external">External CSS works in another independent file by make link relation.</p>
+    <p class="external">practicing class</p>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>
